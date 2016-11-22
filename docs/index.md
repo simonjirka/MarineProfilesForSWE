@@ -28,7 +28,7 @@ THIS DOCUMENT IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## Acknowledgements
 
-The profiles defined in this document have been developed within a series of research projects including
+The profiles defined in this document have been developed within a series of research projects including:
 * AODN
 * BRIDGES
 * ENVRIplus
