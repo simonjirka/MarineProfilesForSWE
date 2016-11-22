@@ -1,10 +1,24 @@
 ---
-title: Marine Profiles of the OGC Sensor Web Enablement Standards
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
 ---
 
 # Marine Profiles of the OGC Sensor Web Enablement Standards
 
 ## Contents
+
+<div class="trigger">
+  {% for my_page in site.pages %}
+    {% if my_page.title %}
+    <div>
+      <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+<br/>
 
 1. [General Considerations](01_General_Considerations.md)
 2. [Related International Initiatives](02_International_Initiatives.md)
