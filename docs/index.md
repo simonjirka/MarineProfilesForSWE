@@ -9,6 +9,17 @@ layout: default
 
 ## Contents
 
+<div class="trigger">
+  {% for my_page in site.pages %}
+    {% if my_page.title %}
+    <div>
+      <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+<br/>
+
 1. [General Considerations](01_General_Considerations.md)
 2. [Related International Initiatives](02_International_Initiatives.md)
 3. [Data Models and Encodings](03_Data_Models_And_Encodings.md)
