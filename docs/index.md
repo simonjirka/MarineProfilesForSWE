@@ -1,3 +1,7 @@
+---
+title: Marine Profiles of the OGC Sensor Web Enablement Standards
+---
+
 # Marine Profiles of the OGC Sensor Web Enablement Standards
 
 ## Contents
