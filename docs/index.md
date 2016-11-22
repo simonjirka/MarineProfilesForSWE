@@ -29,6 +29,7 @@ THIS DOCUMENT IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ## Acknowledgements
 
 The profiles defined in this document have been developed within a series of research projects including:
+</br>
 * AODN
 * BRIDGES
 * ENVRIplus
@@ -44,7 +45,8 @@ The profiles defined in this document have been developed within a series of res
 * SenseOcean
 * X-DOMES
 
-<center>![EC Logo](/images/ec.png)</center>
+<center>![EC Logo](images/ec.png)</center>
+</br>
 
 BRIDGES (Bringing together Industry for the Development of Glider Environment) is funded by the Horizon 2020 Framework Programme for Research and Innovation (H2020-BG-2014-2) of the European Union under grant agreement number 635359.
 
