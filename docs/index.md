@@ -6,7 +6,6 @@ layout: default
 ---
 
 # Marine Profiles of the OGC Sensor Web Enablement Standards
-
 ## Contents
 
 <div class="trigger">
@@ -19,14 +18,6 @@ layout: default
   {% endfor %}
 </div>
 <br/>
-
-1. [General Considerations](01_General_Considerations.md)
-2. [Related International Initiatives](02_International_Initiatives.md)
-3. [Data Models and Encodings](03_Data_Models_And_Encodings.md)
-4. [Metadata Models and Encodings](04_Metadata_Models_And_Encodings.md)
-5. [Interfaces for Pull-based Data Access](05_Pull_Access.md)
-6. [Interfaces for Push-based Data Access (Publish Subscribe)](06_Push_Access.md)
-7. [Interfaces for Tasking Sensors](07_Tasking.md)
 
 
 ## Copyright Notice
