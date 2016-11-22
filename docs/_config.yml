@@ -17,7 +17,7 @@ title: Marine Profiles of the OGC Sensor Web Enablement Standards
 email: info@52north.org
 description: > #
   This site documents a proposal for a set of marine profiles for the OGC Sensor Web Enablement standards.
-baseurl: "/marine-swe-profiles" # the subpath of your site, e.g. /blog
+baseurl: "/marine-swe-profiles/docs" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
