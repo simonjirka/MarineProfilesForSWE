@@ -55,6 +55,7 @@ The profiles defined in this document have been developed within a series of res
 
 ![EC Logo](images/ec.png)
 
+
 **BRIDGES** (Bringing together Industry for the Development of Glider Environment) is funded by the Horizon 2020 Framework Programme for Research and Innovation (H2020-BG-2014-2) of the European Union under grant agreement number 635359.
 
 **FixO<sup>3</sup>** (Fixed Point Open Ocean Observatories Network) is funded by the Sevents Framework Programme (FP7) for Research and Innovation (FP7-INFRASTRUCTURES-2012-1-RTD) of the European Union under grant agreement number 312463.
