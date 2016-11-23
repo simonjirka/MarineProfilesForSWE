@@ -24,6 +24,7 @@ layout: default
 ## Acknowledgements
 
 The profiles defined in this document have been developed within a series of research projects including:
+
 * AODN
 * BRIDGES
 * ENVRIplus

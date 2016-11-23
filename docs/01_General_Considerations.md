@@ -14,8 +14,11 @@ layout: page
 ## Security
 
 ## Alternative Encodings
-* XML
-* EXI
-* JSON
+
+### XML
+
+### EXI
+
+### JSON
 
 ##	...
