@@ -21,6 +21,12 @@ layout: default
 <br/>
 
 
+## Authors
+
+* Simon Jirka, 52°North Initiative for Geospatial Open Source Software GmbH, jirka@52north.org
+* Matthes Rieke, 52°North Initiative for Geospatial Open Source Software GmbH, m.rieke@52north.org
+* **PLEASE ADD YOUR NAME TO THIS LIST!**
+
 ## Acknowledgements
 
 The profiles defined in this document have been developed within a series of research projects including:
