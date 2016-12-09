@@ -32,19 +32,21 @@ layout: default
 The profiles defined in this document have been developed within a series of research projects including:
 
 * AODN
-* BRIDGES
-* ENVRIplus
-* EUROFLEETS/EUROFLEETS2
-* FixO<sup>3</sup>
+* [BRIDGES](http://www.bridges-h2020.eu/)
+* [ENVRIplus](http://www.envriplus.eu/)
+* [EUROFLEETS/EUROFLEETS2](http://www.eurofleets.eu/np4/home.html)
+* [FixO<sup>3</sup>](http://www.fixo3.eu/)
 * FRAM
-* IOOS
-* Jerico/Jerico-Next
-* NeXOS
-* ODIP/ODIP 2
-* RITMARE
-* SeaDataNet
-* SenseOcean
-* X-DOMES
+* [IOOS](https://ioos.noaa.gov/)
+* [Jerico/Jerico-Next](http://www.jerico-ri.eu/)
+* [NeXOS](http://www.nexosproject.eu/)
+* [ODIP/ODIP 2](http://www.odip.org/)
+* [RITMARE](http://www.ritmare.it/)
+* SeaDataCloud
+* [SeaDataNet](http://www.seadatanet.org/)
+* [SenseOcean](http://www.senseocean.eu/)
+* [X-DOMES](https://www.earthcube.org/group/x-domes)
+* TODO: Add missing references
 
 ![EC Logo](images/ec.png)
 
