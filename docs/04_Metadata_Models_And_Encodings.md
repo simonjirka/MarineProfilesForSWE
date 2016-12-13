@@ -29,67 +29,94 @@ provides an overview of these elements:
 | Type          | Purpose                                                     |
 |---------------|-------------------------------------------------------------|
 | swe:Quantity  | Encode scalar values (e.g. weight of an instrument); it includes a dedicated element for encoding the unit of measurement of the quantity. |
-| swe:QuantityRange | ** TODO ** |
-| swe:Count     | Encode integer values (e.g. number of channels of an instrument) |
-| swe:CountRange | ** TODO ** |
-| swe:Boolean   | Encode boolean values (e.g. instrument switched on: yes/no) |
-| swe:Text      | Encode textual values (e.g. material of the buoy)           |
-| swe:Category  | Encode values from a pre-defined set of categories (e.g. device status) |
-| swe:CategroyRange | ** TODO ** |
-| swe:Time      | ** TODO ** |
-| swe:TimeRange | ** TODO ** |
+| swe:QuantityRange | Encode a range of scalar values with its lower and upper boundary (e.g. depth range in which a glider is able to operate). |
+| swe:Count     | Encode integer values (e.g. number of channels of an instrument). |
+| swe:CountRange | Encode a range of scalar values with its lower and upper boundary (e.g. minimum and maximum number of channels supported by an instrument). |
+| swe:Boolean   | Encode boolean values (e.g. instrument switched on: yes/no). |
+| swe:Text      | Encode textual values (e.g. material of the buoy).           |
+| swe:Category  | Encode values from a pre-defined set of categories (e.g. device status). |
+| swe:CategoryRange | Encode a range of order (e.g. all quality flags between acceptable and excellent). |
+| swe:Time      | Encode a point in time (e.g. starting time of a glider mission). |
+| swe:TimeRange | Encode a time period with its begin and end time (e.g. time period of a glider mission). |
 
+**TODO all: Please check if there are better examples that we could mention in the table**
 
 ### Examples
 
+In the following, for each basic data component in the table abve, an example is provided.
+
 #### swe:Quantity
 
-** TODO **
+    <swe:Quantity definition="**TODO: Link to vocabulary entry for weight or any other scalar property**">
+       <swe:uom code="Cel"/>
+       <swe:value>10.758</swe:value>
+    </swe:Quantity>
 
 #### swe:QuantityRange
 
-** TODO **
+    <swe:QuantityRange definition="**TODO: Link to appropriate vocabulary entry**">
+       <swe:uom code="m"/>
+       <swe:value>-300.0 0.0</swe:value>
+    </swe:QuantityRange>
 
 #### swe:Count
 
-** TODO **
+    <swe:Count definition=**TODO: Link to appropriate vocabulary entry**">
+       <swe:value>16</swe:value>
+    </swe:Count>
 
 #### swe:CountRange
 
-** TODO **
+    <swe:Count definition=**TODO: Link to appropriate vocabulary entry**">
+       <swe:value>10 16</swe:value>
+    </swe:Count>
 
 #### swe:Boolean
 
-** TODO **
+     <swe:Boolean definition="**TODO: Link to appropriate vocabulary entry**">
+        <swe:value>true</swe:value>
+     </swe:Boolean>
 
 #### swe:Text
 
-** TODO **
+    <swe:Text definition="**TODO: Link to appropriate vocabulary entry**">
+      <swe:value>Aluminium</swe:value>
+    </swe:Text>
 
 #### swe:Category
 
-** TODO **
+    <swe:Category definition="**TODO: Link to appropriate vocabulary entry**">
+       <swe:codeSpace xlink:href="**TODO: Link to appropriate code list in a vocabulary**"/>
+       <swe:value>good</swe:value>
+    </swe:Category>
 
 #### swe:CategoryRange
 
-** TODO **
+    <swe:CategoryRange definition="**TODO: Link to appropriate vocabulary entry**">
+       <swe:codeSpace xlink:href="**TODO: Link to appropriate code list in a vocabulary**"/>
+       <swe:value>acceptable good</swe:value>
+    </swe:CategoryRange>
 
 #### swe:Time
 
-** TODO **
-* timeInstant
-* timePeriod
+    <swe:Time definition="**TODO: Link to appropriate vocabulary entry**"
+       <swe:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+       <swe:value>2016-12-13T18:09:07Z</swe:value>
+    </swe:Time>
 
 #### swe:TimeRange
 
-** TODO **
+    <swe:TimeRange definition="**TODO: Link to appropriate vocabulary entry**">
+       <swe:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+       <swe:value>2015-11-12T15:32:34Z 2016-01-28T05:01:45Z</swe:value>
+    </swe:TimeRange>
 
-** TODO **
+
+**TODO**
 
 * dataArray
 * dataRecord
-* geometry (bbox, position)
-* ...
+* geometry (envelope, position)
 
 ## Overview of Metadata Elements
 
@@ -175,16 +202,16 @@ systems, components, etc.).
 
 | Name              | Requiered/Recommended | Reference to Vocabulary | Explanation |
 |-------------------|-----------------------|-------------------------|-------------|
-| Unique ID         | Required              | ** TODO **              | Unique id for referring to the specific ressource (e.g. instrument, platform, etc.). |
+| Unique ID         | Required              | **TODO**              | Unique id for referring to the specific ressource (e.g. instrument, platform, etc.). |
 | Short name        |
 | Long name         |
 | Serial number     |
 | Model number      |
 | Manufacturer name |
-| ** TODO **        |
+| **TODO**        |
 
 ##### Example
-    TODO
+    **TODO**
 
 
 #### sml:classification
@@ -199,13 +226,13 @@ systems, components, etc.).
 
 | Name               | Requiered/Recommended | Reference to Vocabulary | Explanation |
 |--------------------|-----------------------|-------------------------|-------------|
-| Applicaton domain  | Recommended           | ** TODO **              | Application domain for which the described resource is intended (e.g. marine science) |
-| Platform type      | Recommended           | ** TODO **              | Type of the platform that is described by the SensorML document (e.g. buoy, glider, etc.). |
+| Applicaton domain  | Recommended           | **TODO**              | Application domain for which the described resource is intended (e.g. marine science) |
+| Platform type      | Recommended           | **TODO**              | Type of the platform that is described by the SensorML document (e.g. buoy, glider, etc.). |
 | Instrument type    |
-| ** TODO **         |
+| **TODO**         |
 
 ##### Example
-    TODO
+    **TODO**
 
 
 #### sml:capabilities
@@ -221,14 +248,14 @@ systems, components, etc.).
 
 | Name                    | Requiered/Recommended | Reference to Vocabulary | Suitable SWE Common Data Component | Explanation |
 |-------------------------|-----------------------|-------------------------|------------------------------------|-------------|
-| Temporal resolution     | Recommended           | ** TODO **              | swe:Quantity                       | ** TODO **  |
-| Maximum operating depth | Recommended           | ** TODO **              | swe:Quantity                       | ** TODO **  |
+| Temporal resolution     | Recommended           | **TODO**              | swe:Quantity                       | **TODO**  |
+| Maximum operating depth | Recommended           | **TODO**              | swe:Quantity                       | **TODO**  |
 | Spectral resolution     |
 | Sensitivity             |
-| ** TODO **              |
+| **TODO**              |
 
 ##### Example
-    TODO
+    **TODO**
 
 
 #### sml:characteristics
@@ -244,16 +271,16 @@ systems, components, etc.).
 
 | Name                    | Requiered/Recommended | Reference to Vocabulary | Suitable SWE Common Data Component | Explanation |
 |-------------------------|-----------------------|-------------------------|------------------------------------|-------------|
-| Material                | Recommended           | ** TODO **              | swe:Text                           | ** TODO **  |
-| Length                  | Recommended           | ** TODO **              | swe:Quantity                       | ** TODO **  |
+| Material                | Recommended           | **TODO**              | swe:Text                           | **TODO**  |
+| Length                  | Recommended           | **TODO**              | swe:Quantity                       | **TODO**  |
 | Width                   |
 | Height                  |
 | Weight                  |
-| ** TODO **              |
+| **TODO**              |
 
 
 ##### Example
-    TODO
+    **TODO**
 
 
 #### sml:outputs
@@ -266,7 +293,7 @@ systems, components, etc.).
 
 
 ##### Example
-    TODO
+    **TODO**
 
 ## Recommended Metadata Element for Different Types of Resources
 
