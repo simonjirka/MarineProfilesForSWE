@@ -22,21 +22,76 @@ layout: page
 
 ## Basic Data Types for Providing Metadata
 
-* Explain basic SWE Common data components
-* swe:text
-* swe:quantity
-* swe:count
-* Boolean
-* dataArra
-* dataRecord
+Within the following subsection, several basic data types will be re-used (e.g.
+as part of the capabilities and characteristics elements). The following table
+provides an overview of these elements:
+
+| Type          | Purpose                                                     |
+|---------------|-------------------------------------------------------------|
+| swe:Quantity  | Encode scalar values (e.g. weight of an instrument); it includes a dedicated element for encoding the unit of measurement of the quantity. |
+| swe:QuantityRange | ** TODO ** |
+| swe:Count     | Encode integer values (e.g. number of channels of an instrument) |
+| swe:CountRange | ** TODO ** |
+| swe:Boolean   | Encode boolean values (e.g. instrument switched on: yes/no) |
+| swe:Text      | Encode textual values (e.g. material of the buoy)           |
+| swe:Category  | Encode values from a pre-defined set of categories (e.g. device status) |
+| swe:CategroyRange | ** TODO ** |
+| swe:Time      | ** TODO ** |
+| swe:TimeRange | ** TODO ** |
+
+
+### Examples
+
+#### swe:Quantity
+
+** TODO **
+
+#### swe:QuantityRange
+
+** TODO **
+
+#### swe:Count
+
+** TODO **
+
+#### swe:CountRange
+
+** TODO **
+
+#### swe:Boolean
+
+** TODO **
+
+#### swe:Text
+
+** TODO **
+
+#### swe:Category
+
+** TODO **
+
+#### swe:CategoryRange
+
+** TODO **
+
+#### swe:Time
+
+** TODO **
 * timeInstant
 * timePeriod
-* position
-* boudingbox
-* geometry
+
+#### swe:TimeRange
+
+** TODO **
+
+** TODO **
+
+* dataArray
+* dataRecord
+* geometry (bbox, position)
 * ...
 
-## Recommended Metadata Elements
+## Overview of Metadata Elements
 
 * Diagrams with explanations of the elements
 * Define subset which is mandatory
@@ -203,7 +258,7 @@ systems, components, etc.).
 
 #### sml:outputs
 
-| sml:outputs   |
+| sml:outputs       |
 | ------------------|-----------------------------------------------------------------|
 | Recommendation    | Optional, recommended / Mandatory for detectors and instruments |
 | Explanation       |      j   |
@@ -213,8 +268,12 @@ systems, components, etc.).
 ##### Example
     TODO
 
+## Recommended Metadata Element for Different Types of Resources
 
 ### Network
+
+| Metadata Element | Recommendation | Comments |
+|------------------|----------------|----------|
 
 ### Platform
 
