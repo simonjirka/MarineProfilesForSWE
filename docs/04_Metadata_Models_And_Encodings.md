@@ -117,6 +117,7 @@ systems, components, etc.).
 | Comment            | See below for required/recommended identifier definitions for which identifiers shall/should be provided. |
 
 ##### Required/Recommended Types of Identifiers
+
 | Name              | Requiered/Recommended | Reference to Vocabulary | Explanation |
 |-------------------|-----------------------|-------------------------|-------------|
 | Unique ID         | Required              | ** TODO **              | Unique id for referring to the specific ressource (e.g. instrument, platform, etc.). |
@@ -140,6 +141,7 @@ systems, components, etc.).
 | Comment            | Optional in the SensorML 2.0 standard but essential for categorizing the described resource (e.g. platform type, application domain, etc.). See below for required/recommended identifier definitions for which identifiers shall/should be provided. |
 
 ##### Required/Recommended Types of Classifiers
+
 | Name               | Requiered/Recommended | Reference to Vocabulary | Explanation |
 |--------------------|-----------------------|-------------------------|-------------|
 | Applicaton domain  | Recommended           | ** TODO **              | Application domain for which the described resource is intended (e.g. marine science) |
