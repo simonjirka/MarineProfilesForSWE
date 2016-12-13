@@ -161,6 +161,7 @@ systems, components, etc.).
 
 
 ##### Required/Recommended Types of Capabilities
+
 | Name                    | Requiered/Recommended | Reference to Vocabulary | Suitable SWE Common Data Component | Explanation |
 |-------------------------|-----------------------|-------------------------|------------------------------------|-------------|
 | Temporal resolution     | Recommended           | ** TODO **              | swe:Quantity                       | ** TODO **  |
@@ -183,6 +184,7 @@ systems, components, etc.).
 
 
 ##### Required/Recommended Types of Characteristics
+
 | Name                    | Requiered/Recommended | Reference to Vocabulary | Suitable SWE Common Data Component | Explanation |
 |-------------------------|-----------------------|-------------------------|------------------------------------|-------------|
 | Material                | Recommended           | ** TODO **              | swe:Text                           | ** TODO **  |
