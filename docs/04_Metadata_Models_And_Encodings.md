@@ -22,10 +22,10 @@ layout: page
 
 ## Basic Data Types for Providing Metadata
 
-* Explain basic data types
-* text
-* quantity
-* count
+* Explain basic SWE Common data components
+* swe:text
+* swe:quantity
+* swe:count
 * Boolean
 * dataArra
 * dataRecord
@@ -33,7 +33,7 @@ layout: page
 * timePeriod
 * position
 * boudingbox
-* polygon
+* geometry
 * ...
 
 ## Recommended Metadata Elements
@@ -108,13 +108,44 @@ systems, components, etc.).
     </sml:keywords>   
 
 
+#### sml:identification
+
+| sml:identification |
+| -------------------|---------------------------------------------------------|
+| Recommendation     | Mandatory                                               |
+| Explanation        | The identification element may contain multiple IdentifierList elements which may again multiple indentifier elements. Each identifier element takes a Term as its value. The Term element has an optional but strongly recommended definition attribute that should reference a resolvable definition of the term within an online vocabulary. |
+| Comment            | See below for required/recommended identifier definitions for which identifiers shall/should be provided. |
+
+##### Required/Recommended Types of Identifiers
+| Name              | Requiered/Recommended | Reference to Vocabulary | Explanation |
+|-------------------|-----------------------|-------------------------|-------------|
+| Unique ID         | Required              | ** TODO **              | Unique id for referring to the specific ressource (e.g. instrument, platform, etc.). |
+| Short name        |
+| Long name         |
+| Serial number     |
+| Model number      |
+| Manufacturer name |
+| ** TODO **        |
+
+##### Example
+    TODO
+
+
 #### sml:classification
 
-| sml:classification    |
-| ------------------|----------------------------------------------------------|
-| Recommendation    | Mandatory                                                |
-| Explanation       |      j   |
-| Comment           | Optional in the SensorML 2.0 standard but essential for categorizing the described resource (e.g. platform type, application domain, etc.) |
+| sml:classification |
+| -------------------|---------------------------------------------------------|
+| Recommendation     | Mandatory                                               |
+| Explanation        | The classification element may contain multiple ClassifierList elements which may again multiple classifier elements. Each classifier element takes a Term as its value. The Term element has an optional but strongly recommended definition attribute that should reference a resolvable definition of the term within an online vocabulary. |
+| Comment            | Optional in the SensorML 2.0 standard but essential for categorizing the described resource (e.g. platform type, application domain, etc.). See below for required/recommended identifier definitions for which identifiers shall/should be provided. |
+
+##### Required/Recommended Types of Classifiers
+| Name               | Requiered/Recommended | Reference to Vocabulary | Explanation |
+|--------------------|-----------------------|-------------------------|-------------|
+| Applicaton domain  | Recommended           | ** TODO **              | Application domain for which the described resource is intended (e.g. marine science) |
+| Platform type      | Recommended           | ** TODO **              | Type of the platform that is described by the SensorML document (e.g. buoy, glider, etc.). |
+| Instrument type    |
+| ** TODO **         |
 
 ##### Example
     TODO
@@ -125,8 +156,18 @@ systems, components, etc.).
 | sml:capabilities   |
 | ------------------|----------------------------------------------------------|
 | Recommendation    |  Optional, recommended                                   |
-| Explanation       |      j   |
+| Explanation       |  This element may be used for describing what a resource (e.g. instrument or platform) is capable of. The capabilities element contains a CapabilitiesList as its value. The CapabilitiesList element consists of capability elements which may contain any SWE Common data component (see above) as value. The SWE Common data components have an optional but strongly recommended definition attribute that should reference a resolvable definition of the term within an online vocabulary. |
 | Comment           | Important to assess the suitability of a certain sensor or platform for certain applications (e.g. maximum depth of a glider, resolution of a detector, etc.) |
+
+
+##### Required/Recommended Types of Capabilities
+| Name                    | Requiered/Recommended | Reference to Vocabulary | Suitable SWE Common Data Component | Explanation |
+|-------------------------|-----------------------|-------------------------|------------------------------------|-------------|
+| Temporal resolution     | Recommended           | ** TODO **              | swe:Quantity                       | ** TODO **  |
+| Maximum operating depth | Recommended           | ** TODO **              | swe:Quantity                       | ** TODO **  |
+| Spectral resolution     |
+| Sensitivity             |
+| ** TODO **              |
 
 ##### Example
     TODO
@@ -137,8 +178,20 @@ systems, components, etc.).
 | sml:characteristics    |
 | ------------------|----------------------------------------------------------|
 | Recommendation    | Optional, recommended                                    |
-| Explanation       |      j   |
-| Comment           | re |
+| Explanation       | This element may be used for describing properties/characteristics of a resource (e.g. instrument or platform). The characteristics element contains a CharacteristicsList as its value. The CharacteristicsList element consists of characteristic elements which may contain any SWE Common data component (see above) as value. The SWE Common data components have an optional but strongly recommended definition attribute that should reference a resolvable definition of the term within an online vocabulary. |
+| Comment           |  |
+
+
+##### Required/Recommended Types of Characteristics
+| Name                    | Requiered/Recommended | Reference to Vocabulary | Suitable SWE Common Data Component | Explanation |
+|-------------------------|-----------------------|-------------------------|------------------------------------|-------------|
+| Material                | Recommended           | ** TODO **              | swe:Text                           | ** TODO **  |
+| Length                  | Recommended           | ** TODO **              | swe:Quantity                       | ** TODO **  |
+| Width                   |
+| Height                  |
+| Weight                  |
+| ** TODO **              |
+
 
 ##### Example
     TODO
